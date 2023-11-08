@@ -125,7 +125,7 @@ function fruits(){
       // fruit.velocityX= (7);
      
     fruit.scale=0.2;
-     //fruit.debug=true;
+    //  fruit.debug=true;
      r=Math.round(random(1,4));
     if (r == 1) {
       fruit.addImage(fruit1);
@@ -139,7 +139,7 @@ function fruits(){
     
     fruit.y=Math.round(random(50,550));
    
-    
+
     
     fruit.setLifetime=100;
     
